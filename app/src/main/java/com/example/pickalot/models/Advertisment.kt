@@ -1,5 +1,9 @@
 package com.example.pickalot.models
 
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+
+
 @Entity
 data class Advertisment(
     @PrimaryKey(autoGenerate = true)
